@@ -4,8 +4,8 @@
     "tabWidth": 2,
     "singleQuote": true,
     "trailingComma": "none",
+    "bracketSpacing": true,
     "jsxBracketSameLine": false,
     "parser": "babylon",
-    "noSemi": false,
-    "rcVerbose": false
+    "semi": false
 }

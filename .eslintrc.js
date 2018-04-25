@@ -7,6 +7,7 @@ module.exports = {
 		'pretty/async',
 		'pretty/es6',
 		'pretty/node',
+		'plugin:react/recommended',
 		'pretty/prettier'
 	],
 	env: {
@@ -21,6 +22,10 @@ module.exports = {
 			{
 				allowModules: ['react-app-rewire-eslint']
 			}
-		]
+		],
+		'promise/prefer-await-to-then': 'warn',
+		'promise/prefer-await-to-callbacks': 'warn',
+		'promise/no-nesting': 'warn',
+		'class-methods-use-this': 'off'
 	}
 }
